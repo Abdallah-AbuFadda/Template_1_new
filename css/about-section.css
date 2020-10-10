@@ -1,0 +1,38 @@
+/*About section*/
+
+.about-content{
+    
+}
+
+.about-item{
+    width: 30%;
+    text-align: center;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 40px 15px;
+}
+
+.about-item.mg{
+    margin-left: 5%; /* or margin: 0 5% */
+    margin-right: 5%; /* or margin: 0 5% */ 
+}
+
+.about-item-title{
+    transition: color 0.5s;    
+}
+
+.about-item:hover .about-item-title{
+    color: var(--whitecolor);
+}
+
+.about-item i{
+    color: var(--maincolor);    
+}
+
+.about-item-desc{
+    line-height: 1.5;
+    color: var(--darkgray);
+}
+
+.about-item-link{
+    color: var(--maincolor);
+}

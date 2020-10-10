@@ -1,0 +1,76 @@
+/*contact section*/
+
+.contact{
+
+}
+
+.contact .container{
+    width: 65%;
+    margin: auto;
+}
+
+.contact-content{
+    
+}
+
+.contact-item{
+    width: 30%;
+    text-align: center;
+}
+
+.contact-item.mg{
+    margin: 0 5%;
+}
+
+.contact-item i{
+    color: var(--maincolor);
+}
+
+.contact-item-title{
+    margin: 20px 0;
+}
+
+.contact-item-text{
+    color: var(--graycolor);
+}
+
+.contact .container-form{
+    width: 70%;
+    margin: auto;
+}
+
+.form-content{
+    width: 100%;
+    margin: auto;
+}
+
+.contact form input[type=text]{
+    background-color:var (--smokecolor);
+    width: 45%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 7px 10px;
+    margin:10px
+   
+}
+
+.contact form input[type=text][placeholder="Subject"]{
+    width: 100%;
+}
+.contact form textarea{
+    background-color: var(--smokecolor);
+    margin: 8px;
+    padding: 7px 10px;
+    
+}
+.contact .btn-msg{
+    display: block;
+    width: 150px;
+    height: 45px;
+    color: white;
+    background-color: var(--maincolor);
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+}

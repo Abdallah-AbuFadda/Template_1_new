@@ -1,0 +1,64 @@
+/*Services section*/
+.service{
+    background-color: rgb(250, 250, 250);
+}
+.service .service-item{
+    width: 50%;
+}
+
+.service .section-header{
+    text-align: left;
+
+}
+
+.service .line{
+    margin: 0 0 50px 0;
+}
+
+.service-item-desc{
+    color: var(--darkgray);
+    line-height: 1.5;
+    font-size: 17px;
+}
+.service-list{
+    list-style: none;
+}
+.service-list li{
+    color: var(--darkgray);
+    margin-bottom: 15px;
+}
+
+.service-list li i{
+    color: var(--maincolor);
+    border: 1px solid var(--maincolor);
+    border-radius: 50%;
+    padding: 5px;
+    margin-right:5px ;
+
+}
+
+.service-item-img img{
+    width: 100%;
+}
+
+.service-bollets{
+    list-style: none;
+    text-align: center;
+}
+
+.service-bollets li{
+    background-color: #e8e8e8;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 10px 5px ;
+}
+
+.service-bollets li:hover{
+    background-color: var(--maincolor);
+}
+
+.service-bollets li.active{
+    background-color: var(--maincolor);
+}

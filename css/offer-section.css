@@ -1,0 +1,41 @@
+/*Offers section*/
+
+.offer-content{
+    
+}
+
+.offer-content .offer-item{
+    border: 1px solid rgb(231, 231, 231) ;
+    width: 30%;
+    padding: 30px 10px 45px 70px;
+}
+
+.offer-item.mg{
+    margin: 0 2%;
+}
+
+.offer-item{
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.offer-item i{
+    position: absolute;
+    left: 20;
+    color: var(--maincolor);
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+.offer-content-title{
+    transition: color .5s;
+}
+
+.offer-item:hover .offer-content-title{
+    color:var(--whitecolor);
+}
+
+.offer-content-desc{
+    color: var(--darkgray);
+    line-height: 25px;
+}
